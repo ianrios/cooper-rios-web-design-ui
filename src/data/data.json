@@ -1,0 +1,37 @@
+{
+    "content": {
+        "home": {
+            "Home": [
+                "We’re a Midwest-based web design firm serving an international suite of medical practitioners, clinics, practices, and brands.",
+                "We strive to create websites and web content that’s human-centered, bringing your clients closer to your business and creating long-term relationships.",
+                "We’re ready to work closely with you on designs and ideas (LINK TO SERVICES PAGE HERE), ultimately crafting a website sure to leave clients with a positive impression and a booked appointment."
+            ]
+        },
+        "demo": { "Demo": ["demo site info"] },
+        "services": {
+            "Web Design": [
+                "First impressions are critical for potential clients.",
+                "To convert curious patrons into real clients, you need a website that’s both aesthetically pleasing and informative about your services.",
+                "We’ll work closely with you to craft beautiful webpages sure to entice clients and deliver results, intuitively guiding them through your practice’s story and delivering them to contact information smoothly."
+            ],
+            "Website Redesign": [
+                "If your current website isn’t attracting customers, it’s likely time for a complete redesign.",
+                "We’ll help you revamp your entire website to attract more customers.",
+                "Our redesign services will also make your website more accessible to search engines, ensuring that you will be a more visible presence on the web.",
+                "Throughout this process, we’ll work closely with you to iterate on ideas, build your story, and communicate your brand to potential clients effectively."
+            ],
+            "Copywriting and Content Management": [
+                "Great website copywriting creates instant connections between clients and businesses.",
+                "We’ll do just that, creating narratives unique to your business through client testimonials, stories, and clear messaging about services.",
+                "Our copy is search engine optimized, using keywords specific to your industry in natural ways.",
+                "We’ll communicate through the entire copywriting process, ensuring that you know exactly what content we’re building and why."
+            ]
+        },
+        "contact": {
+            "Contact Us": [
+                "If you are interested in a quote for any of our services (LINK TO SERVICES PAGE HERE), don’t hesitate to send us an email via the form below.",
+                "We’ll be happy to discuss options, designs, and content that will bring in more customers."
+            ]
+        }
+    }
+}

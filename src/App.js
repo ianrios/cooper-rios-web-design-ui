@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.scss';
+import data from "./data/data.json"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const options = ["home", "demo", "services", "contact"];
+	const [view, setView] = useState(0)
+	return (
+		<div class="container" id="page">
+			<h1 id="header">Cooper & Rios Web Design</h1>
+			<div class="container" id="options" >
+				{options.map((item, idx) => {
+					return (
+						<a
+
+							key={idx}
+							href="#"
+							onClick={() => setView(idx)}
+						>{item}</a>
+					)
+				})}
+			</div>
+			<div class="container" id="content">
+				{Object.keys(data.content[options[view]]).map((item, idx) => {
+					return (
+						<div key={idx} >
+							<h2>{item}</h2>
+							<p>{data.content[options[view]][item].map((i, j) => { return (<span key={j}>{i}</span>) })}</p>
+						</div>
+					)
+				})}
+			</div>
+		</div>
+	);
 }
 
 export default App;
